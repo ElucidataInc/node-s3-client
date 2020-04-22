@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install s3-node-client --save`
+`npm install @elucidatainc/s3-node-client --save`
 
 ## Features
 
@@ -25,7 +25,7 @@
 ### Create a client
 
 ```js
-var s3 = require('s3-node-client');
+var s3 = require('@elucidatainc/s3-node-client');
 
 var client = s3.createClient({
   maxAsyncS3: 20,     // this is the default
