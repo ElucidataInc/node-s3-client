@@ -48,7 +48,7 @@ var client = s3.createClient({
 ### Create a client from existing AWS.S3 object
 
 ```js
-var s3 = require('s3-node-client');
+var s3 = require('@elucidatainc/s3-node-client');
 var awsS3Client = new AWS.S3(s3Options);
 var options = {
   s3Client: awsS3Client,
