@@ -1,6 +1,6 @@
 {
   "name": "@elucidatainc/s3-node-client",
-  "version": "4.4.5",
+  "version": "4.4.6",
   "description": "high level amazon s3 client. upload and download files and directories",
   "main": "lib/index.js",
   "scripts": {
